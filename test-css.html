@@ -10,18 +10,18 @@
     </script>
     <link media="all" rel="stylesheet" type="text/css" href='style.css'>
     <script src="Equalizer.js"></script>
-      <script>
+    <script>
       window.onload = function() {
             var width = 2,
-                duration = 5e2;
-            setEqualizer($('#eq_1 .equalizer'), duration, width);
-            setEqualizer($('#eq_2 .equalizer'), duration, width);
-            setEqualizer($('#eq_3 .equalizer'), duration, width);
+                duration = 3e2;
+            setEqualizer($('#eq_1 .equalizer'), duration, width,'css');
+            setEqualizer($('#eq_2 .equalizer'), duration, width,'css');
+            setEqualizer($('#eq_3 .equalizer'), duration, width,'css');
         }
-      </script>
+     </script>
   </head>
   <body>
-    <h1>Equalizers <a href="/test-css.html">на CSS</a></h1>
+    <h1>Equalizers <a href="/test.html">на js</a></h1>
     <div id="eq_1" class="equalizer-wrapper">
       <h2>First</h2>
       <div class="equalizer small"></div>

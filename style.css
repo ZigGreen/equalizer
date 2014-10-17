@@ -1,0 +1,41 @@
+/*
+    Document   : style．css
+    Created on : 2014-10-17 01:08 PM
+    Author     : ZigGreen
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+ .equalizer span {
+    vertical-align: bottom;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    background: pink;
+    border-top: 2px solid red;
+}
+.equalizer-wrapper {
+    float:left;
+    margin: 0 20px 20px 0;
+}
+.equalizer {
+    overflow: hidden;
+    border:1px solid #ddd;
+}
+.equalizer.small {
+    width: 100px;
+    height: 100px;
+}
+.equalizer.normal {
+    width: 200px;
+    height: 200px;
+}
+.equalizer.big {
+    width: 300px;
+    height: 300px;
+}
+.equalizer-css span {
+    transition-property: height;
+    transition-timing-function: linear;
+    transition-duration: inherit;
+}
