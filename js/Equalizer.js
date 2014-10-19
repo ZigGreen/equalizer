@@ -99,7 +99,7 @@
             .attr('width', options.colWidth)
             .transition()
             .ease('liner')
-            .duration(options.duration)
+            .duration(options.duration/2)
             .each(slide);
 
     }
