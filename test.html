@@ -14,9 +14,9 @@
       window.onload = function() {
             var width = 2,
                 duration = 5e2;
-            setEqualizer($('#eq_1 .equalizer'), duration, width);
-            setEqualizer($('#eq_2 .equalizer'), duration, width);
-            setEqualizer($('#eq_3 .equalizer'), duration, width);
+          $('#eq_1 .equalizer').equalizer({duration: duration, colWidth :width});
+          $('#eq_2 .equalizer').equalizer({duration: duration, colWidth :width});
+          $('#eq_3 .equalizer').equalizer({duration: duration, colWidth :width});
         }
       </script>
   </head>
