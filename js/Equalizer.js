@@ -82,6 +82,7 @@
             .attr("height", $element.height());
         
         // генерим rect`ы
+        // TODO: колпачки на столбики
         var col = svg.selectAll("rect")
             .data(d3.range(options.colQuantity).map(function() {
                 return {
@@ -143,7 +144,7 @@
 
         var trinsitionFn = cssMode ? css_animation : jq_animation;
 
-        if(cssMode) this.css('transition-duration', opts.duration + 'ms').addClass('equalizer-css');
+        if(cssMode) this.css('transition-duration', opts.duration/2 + 'ms').addClass('equalizer-css');
 
         // forEach в данном случае удобнее $.each из-за возможности передать контекст
         [].forEach.call(this.find(opts.barElName), function(el) {
