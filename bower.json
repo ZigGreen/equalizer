@@ -1,0 +1,31 @@
+{
+  "name": "equalizer",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ZigGreen/equalizer",
+  "authors": [
+    "ZigGreen <krisstal.mail@gmail.com>"
+  ],
+  "main": "js/main",
+  "keywords": [
+    "yandex",
+    "шри",
+    "javascript",
+    "jquery",
+    "plugin",
+    "equalizer"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.6",
+    "requirejs": "~2.1.15",
+    "d3": "~3.4.13"
+  }
+}
