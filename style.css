@@ -2,17 +2,17 @@
     Document   : style．css
     Created on : 2014-10-17 01:08 PM
     Author     : ZigGreen
-    Description:
-    Purpose of the stylesheet follows.
-    To change this template use Tools | Templates.
 */
- .equalizer span {
+ .equalizer span{
     vertical-align: bottom;
     display: inline-block;
     font-size: 0;
     line-height: 0;
     background: pink;
     border-top: 2px solid red;
+}
+ .equalizer  rect{
+    fill: pink;
 }
 .equalizer-wrapper {
     float:left;
