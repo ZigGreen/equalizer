@@ -13,7 +13,7 @@ requirejs.config({
 require(['jquery', 'Equalizer'], function($) {
 
     var width = 3,
-        duration = 3e2,
+        duration = 6e2,
         config = {
             duration: duration,
             colWidth: width,

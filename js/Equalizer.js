@@ -147,7 +147,7 @@
 
         // forEach в данном случае удобнее $.each из-за возможности передать контекст
         [].forEach.call(this.find(opts.barElName), function(el) {
-            setInterval(trinsitionFn, opts.duration * 2, this.height(), $(el), opts.duration)
+            setInterval(trinsitionFn, opts.duration, this.height(), $(el), opts.duration/2)
         }, this)
     };
 }));
